@@ -1,0 +1,53 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+
+/* Importing component files */
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/container.css");
+@import url("components/card.css");
+
+
+/* General style rules for fonts and colors */
+body {
+  font-family: 'Arial', serif;
+  font-size: 18px;
+
+  margin: 0px;
+}
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #202e32;
+}
+a {
+  text-decoration: none;
+}
+
+
+
+body {
+
+  color: rgb(10, 10, 10);     /* Text color */
+	background-color: #dfdcb9;  /* Background color */
+
+	  font-family: Times, serif;
+	font-family: Arial, sans-serif;
+	font-family: Courier, monospace;
+}
+
+
+
+
+.container {
+  width: 700px; /* set the width of your container */
+  margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+}
+
+.card-white {
+  background-color: #000;
+  border-radius:5px:
+  padding: 40px; 
+  margin:50px:/* set margins: top/bottom: 40px; left/right: automatic */
+}
